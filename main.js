@@ -48,13 +48,13 @@ const diagonalWin = () => {
 const checkForWin = () => {
   // Your code here call each of the check for types of wins
   if (horizontalWin == true) {
-    console.log("Congrats you wont horizontally")
+    console.log("Congrats you won horizontally")
   }
   if (verticalWin == true) {
-    console.log("Congrats you wont vertically")
+    console.log("Congrats you won vertically")
   }
   if (diagonalWin == true ) {
-    console.log("Congrats you wont diagonally")
+    console.log("Congrats you won diagonally")
   
   }
 }
